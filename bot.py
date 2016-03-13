@@ -62,7 +62,7 @@ def ask(m):
     str = m.text
     txt = str.replace("/ask", "")
     bot.send_message(idA, "<b>Thank you very much! Details to your Question:\n Quetsion:</b> {} \n<b>Chat-Id :</b> {} \n<b>We will answer you as soon as possible</b>".format(txt,idA), parse_mode="HTML")
-    bot.send_message('-84875656', "<b>#NEW MSG\n Chat-Id:</b> {} \n<b>Msg :</b> {}".format(idA,txt), parse_mode="HTML")
+    bot.send_message('-110320062', "<b>#NEW MSG\n Chat-Id:</b> {} \n<b>Msg :</b> {}".format(idA,txt), parse_mode="HTML")
     bot.send_message(idA, "<b>This is a confirmation that we received your Question</b>", parse_mode="HTML")
 
 
