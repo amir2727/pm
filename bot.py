@@ -11,7 +11,7 @@ user = [line.rstrip('\n') for line in open('user.txt','rt')]
 chat = [line.rstrip('\n') for line in open('chat.txt','rt')]
 admins = [line.rstrip('\n') for line in open('admins.txt','rt')]
 
-import <telebot>
+import telebot
 import random
 import json
 import time
